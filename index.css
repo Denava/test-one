@@ -1,0 +1,133 @@
+.textAlign{
+     text-align: center;
+ }
+body{
+    font-family: OpenSans, sans-serif;
+    background: #F2F2F2;
+}
+div{
+    background: #FFFFFF;
+}
+#header{
+    font-stretch: ultra-expanded;
+    font-size: 46px;
+    padding-top: 124px;
+}
+.littleHeader{
+    font-size: 35px;
+    margin-top: 37px;
+}
+.sidMargin{
+    margin-left: 105px;
+    margin-right: 105px;
+}
+.sidPadding{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.firstDivBlock{
+    padding-bottom: 35px;
+    margin-top:80px;
+}
+#changeForm{
+    margin: 85px auto;
+    height: 420px;
+    width: 596px;
+}
+.placeInForm{
+    margin: 60px 50px;
+    font-weight: bold;
+}
+.headerInForm{
+    font-size: 25px;
+}
+.inputForName{
+    height: 20px;
+}
+.inputIsText{
+    margin-top: 44px;
+}
+.heightInputText{
+    height: 34px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.NameInputfirst{
+    width: 200px;
+    float: left;
+}
+.NameInputSecond{
+    width: 200px;
+    float: right;
+    margin: 0px;
+}
+.afterNameInputText{
+    width: 100%;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("./fonts/OpenSans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+
+}
+.secondSidMargin{
+    height: 340px;
+    margin: 40px 105px 0px 105px;
+}
+.secondLittleHeader{
+    float: left;
+    width: 60%;
+    margin-top: 120px;
+    margin-left: 80px;
+    font-size: 35px;
+
+}
+.secondLittleHeader:nth-child(2n){
+    margin-top: 0px;
+}
+.floatForSecondLittleHeader{
+    width: 100%;
+    float: left;
+}
+.buttonReg{
+    margin-top: 30px;
+    height: 35px;
+    width: 120px;
+    background-color: #19A0FC;
+    border-radius: 5px;
+    border: none;
+    color: #D6FFFF;
+    font-size: 16px;
+}
+.buttonJoin{
+    height: 50px;
+    width: 185px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #19A0FC;
+    color: #D6FFFF;
+}
+.firstPlaceButtonJoin{
+    margin: 150px 0px 0px 150px;
+}
+.secondPlaceButtonJoin{
+    margin: 140px 40px 0px 20px;
+}
+.thirdSidMargin{
+    height: 340px;
+    margin: 40px 105px 40px 105px;
+}
+.buttonContact{
+    height: 50px;
+    width: 185px;
+    border: 1px solid #19A0FC;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #19A0FC;
+}
