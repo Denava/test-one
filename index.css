@@ -1,6 +1,3 @@
-.textAlign{
-     text-align: center;
- }
 body{
     font-family: OpenSans, sans-serif;
     background: #F2F2F2;
@@ -8,90 +5,61 @@ body{
 div{
     background: #FFFFFF;
 }
-#header{
+.first-block{
+    margin-left: 105px;
+    margin-right: 105px;
+    margin-top:80px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 35px;
+}
+.textAlign{
+    text-align: center;
+}
+.textAlign__first-header{
     font-stretch: ultra-expanded;
     font-size: 46px;
     padding-top: 124px;
 }
-.littleHeader{
+.textAlign__second-header{
     font-size: 35px;
     margin-top: 37px;
 }
-.sidMargin{
-    margin-left: 105px;
-    margin-right: 105px;
-}
-.sidPadding{
-    padding-left: 15%;
-    padding-right: 15%;
-}
-.firstDivBlock{
-    padding-bottom: 35px;
-    margin-top:80px;
-}
-#changeForm{
+.form{
     margin: 85px auto;
     height: 420px;
     width: 596px;
 }
-.placeInForm{
+.form__place-intro{
     margin: 60px 50px;
     font-weight: bold;
 }
-.headerInForm{
+.form__header{
     font-size: 25px;
 }
 .inputForName{
     height: 20px;
 }
-.inputIsText{
-    margin-top: 44px;
-}
-.heightInputText{
+input[type="text"]{
     height: 34px;
     font-size: 16px;
     padding-left: 10px;
 }
-.NameInputfirst{
+.inputIsText{
+    margin-top: 44px;
+}
+.name{
     width: 200px;
     float: left;
 }
-.NameInputSecond{
-    width: 200px;
+.name:nth-child(2n){
     float: right;
     margin: 0px;
 }
-.afterNameInputText{
+.contact-password{
     width: 100%;
     margin-top: 30px;
     box-sizing: border-box;
-}
-
-@font-face {
-    font-family: "OpenSans";
-    src: url("./fonts/OpenSans.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-
-}
-.secondSidMargin{
-    height: 340px;
-    margin: 40px 105px 0px 105px;
-}
-.secondLittleHeader{
-    float: left;
-    width: 60%;
-    margin-top: 120px;
-    margin-left: 80px;
-    font-size: 35px;
-
-}
-.secondLittleHeader:nth-child(2n){
-    margin-top: 0px;
-}
-.floatForSecondLittleHeader{
-    width: 100%;
-    float: left;
 }
 .buttonReg{
     margin-top: 30px;
@@ -103,7 +71,57 @@ div{
     color: #D6FFFF;
     font-size: 16px;
 }
-.buttonJoin{
+@font-face {
+    font-family: "OpenSans";
+    src: url("./fonts/OpenSans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+
+}
+.second-block{
+    height: 340px;
+    margin: 40px 105px 0px 105px;
+}
+.second-block__text{
+    float: left;
+    width: 60%;
+    margin-top: 120px;
+    margin-left: 80px;
+    font-size: 35px;
+
+}
+.second-block__text:nth-child(2n){
+    margin-top: 0px;
+}
+.second-block__float-text{
+    width: 100%;
+    float: left;
+}
+.second-block__button-join{
+    margin: 150px 0px 0px 150px;
+}
+.third-block{
+    height: 340px;
+    margin: 40px 105px 40px 105px;
+}
+.third-block__float-text{
+    width: 100%;
+    float: left;
+}
+.third-block__text{
+    float: left;
+    width: 60%;
+    margin-top: 120px;
+    margin-left: 80px;
+    font-size: 35px;
+}
+.third-block__text:nth-child(2n){
+    margin-top: 0px;
+}
+.third-block__button-join{
+    margin: 140px 40px 0px 20px;
+}
+.second-block__button-join, .third-block__button-join{
     height: 50px;
     width: 185px;
     border: none;
@@ -112,17 +130,7 @@ div{
     background-color: #19A0FC;
     color: #D6FFFF;
 }
-.firstPlaceButtonJoin{
-    margin: 150px 0px 0px 150px;
-}
-.secondPlaceButtonJoin{
-    margin: 140px 40px 0px 20px;
-}
-.thirdSidMargin{
-    height: 340px;
-    margin: 40px 105px 40px 105px;
-}
-.buttonContact{
+.third-block__button-contact{
     height: 50px;
     width: 185px;
     border: 1px solid #19A0FC;
